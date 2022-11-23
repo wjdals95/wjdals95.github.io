@@ -1,0 +1,165 @@
+*{
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.d-none{ display: none !important;}
+.h0 { height: 0 !important; overflow:  hidden !important;
+      padding: 0 !important; margin: 0 !important;
+}
+
+#navbtn i{
+    color: green;
+    
+}
+#navbtn:hover{
+    background-color: green;
+    color: white;
+}
+#mainBanner{
+    background-image: url(../img/project-phone.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e2dbd0;
+    background-size: 60% calc(100% - 6rem);
+    max-height: 1080px;
+    height: 0;
+    padding-top: 60%;
+}
+@media (min-width:992px){
+    #mainBanner{
+        background-image: url(../img/project.jpeg);
+        background-size: contain;
+        height: 570px;
+        padding-top: 0;
+    }
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a {
+  color: green;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 10px 0;
+  margin: 0 15px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+}
+
+navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: purple;
+  background-color: transparent;
+  position: relative;
+
+}
+.navbar-default .navbar-nav > .active > a::after,
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-inverse .navbar-nav > .active > a::after,
+.navbar-inverse .navbar-nav > .active > a:after,
+.navbar-inverse .navbar-nav > .active > a:after {
+  width: 100%;
+}
+.navbar-default .navbar-nav > li > a::after,
+.navbar-default .navbar-nav > li > a:after,
+.navbar-default .navbar-nav > li > a:after,
+.navbar-inverse .navbar-nav > li > a::after,
+.navbar-inverse .navbar-nav > li > a:after,
+.navbar-inverse .navbar-nav > li > a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  left: 0; right: 0;
+  margin: 0 auto;
+  height: 2px;
+  background-color: purple;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.about-carousel .item .caption {
+  padding: 15px;
+  color: black;
+  width: 100%;
+  height: 261px;
+  margin: auto;
+  position: absolute;
+  top: 120%;
+  left: 27%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+#newProduct strong{
+  color: red;
+}
+#about .about-content img{
+  height: 400px;
+}
+#brandsection{
+  background-color: #e2f0d9;;
+  padding: 100px 0 ;
+}
+#brandsection .brandTitle{
+
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 70px;
+}
+#brandsection .brandSubTitle{
+  display: block;
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 15px 0 0;
+}
+#brandsection .videobox{
+  position: relative;
+  width: 1280px;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  box-shadow: 29px 16px 8px 0 rgb(65 71 50 / 38%);
+}
+#brandsection .videobox-text{
+  background-color: white;
+  padding: 70px 0 10px;
+}
+#brandsection .video-text1{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+#brandsection .video-text2{
+  font-size: 20px;
+  color: #666;
+  margin: 30px 0 50px 0;
+}
+#brandsection .container{
+  height: 447px;
+}
+
+#youtubeContnet{
+  height: 0;
+  padding-top: 56%;
+  position: relative;
+}
+#youtubeContnet iframe{
+  position: absolute;
+  left:0;width: 100%; top:0; height: 100%;
+}
+.ma{
+  margin: 0 auto;
+}
